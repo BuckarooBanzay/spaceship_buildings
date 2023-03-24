@@ -35,3 +35,33 @@ building_lib.register_building("spaceship_buildings:hull_full", {
     },
     overview = "scifi_nodes:lighttop"
 })
+
+building_lib.register_building("spaceship_buildings:hull_side_slope", {
+	catalog = {
+        filename = MP .. "/schematics/hull.zip",
+        offset = { x=1, y=1, z=0 }
+    },
+    markers = {
+        spaceship_buildings.marker_z_pos,
+        spaceship_buildings.marker_x_neg
+    },
+    overview = {
+        name = "scifi_nodes:slope_lighttop",
+        param2 = 12
+    }
+})
+
+building_lib.register_building("spaceship_buildings:hull_upper_side_slope", {
+	catalog = {
+        filename = MP .. "/schematics/hull.zip",
+        offset = { x=1, y=2, z=0 }
+    },
+    markers = {
+        spaceship_buildings.marker_z_pos,
+        spaceship_buildings.marker_x_neg
+    },
+    overview = {
+        name = "scifi_nodes:slope_lighttop_outer_cut",
+        param2 = 0
+    }
+})
