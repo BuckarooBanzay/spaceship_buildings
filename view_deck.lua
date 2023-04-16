@@ -1,7 +1,8 @@
 local MP = minetest.get_modpath("spaceship_buildings")
 
 building_lib.register_building("spaceship_buildings:view_deck", {
-	catalog = {
+    category = "spaceship_viewdeck",
+    catalog = {
         filename = MP .. "/schematics/view_deck.zip",
         offset = { x=0, y=0, z=0 }
     },

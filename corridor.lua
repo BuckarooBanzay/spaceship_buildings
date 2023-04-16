@@ -1,7 +1,8 @@
 local MP = minetest.get_modpath("spaceship_buildings")
 
 building_lib.register_building("spaceship_buildings:corridor_corner", {
-	catalog = {
+    category = "spaceship_corridor",
+    catalog = {
         filename = MP .. "/schematics/corridor.zip",
         offset = { x=0, y=0, z=0 }
     },
@@ -13,7 +14,8 @@ building_lib.register_building("spaceship_buildings:corridor_corner", {
 })
 
 building_lib.register_building("spaceship_buildings:corridor_all_directions", {
-	catalog = {
+    category = "spaceship_corridor",
+    catalog = {
         filename = MP .. "/schematics/corridor.zip",
         offset = { x=1, y=0, z=0 }
     },
@@ -27,7 +29,8 @@ building_lib.register_building("spaceship_buildings:corridor_all_directions", {
 })
 
 building_lib.register_building("spaceship_buildings:corridor_t", {
-	catalog = {
+    category = "spaceship_corridor",
+    catalog = {
         filename = MP .. "/schematics/corridor.zip",
         offset = { x=2, y=0, z=0 }
     },
@@ -40,7 +43,8 @@ building_lib.register_building("spaceship_buildings:corridor_t", {
 })
 
 building_lib.register_building("spaceship_buildings:corridor_straight", {
-	catalog = {
+    category = "spaceship_corridor",
+    catalog = {
         filename = MP .. "/schematics/corridor.zip",
         offset = { x=3, y=0, z=0 }
     },
@@ -52,7 +56,8 @@ building_lib.register_building("spaceship_buildings:corridor_straight", {
 })
 
 building_lib.register_building("spaceship_buildings:corridor_end", {
-	catalog = {
+    category = "spaceship_corridor",
+    catalog = {
         filename = MP .. "/schematics/corridor.zip",
         offset = { x=4, y=0, z=0 }
     },
@@ -65,7 +70,8 @@ building_lib.register_building("spaceship_buildings:corridor_end", {
 -- doors
 
 building_lib.register_building("spaceship_buildings:corridor_straight_door_both", {
-	catalog = {
+    category = "spaceship_corridor",
+    catalog = {
         filename = MP .. "/schematics/corridor.zip",
         offset = { x=1, y=1, z=0 }
     },
@@ -77,7 +83,8 @@ building_lib.register_building("spaceship_buildings:corridor_straight_door_both"
 })
 
 building_lib.register_building("spaceship_buildings:corridor_straight_door", {
-	catalog = {
+    category = "spaceship_corridor",
+    catalog = {
         filename = MP .. "/schematics/corridor.zip",
         offset = { x=2, y=1, z=0 }
     },
@@ -91,7 +98,8 @@ building_lib.register_building("spaceship_buildings:corridor_straight_door", {
 -- windows
 
 building_lib.register_building("spaceship_buildings:corridor_window", {
-	catalog = {
+    category = "spaceship_corridor",
+    catalog = {
         filename = MP .. "/schematics/corridor.zip",
         offset = { x=3, y=1, z=0 }
     },
@@ -103,7 +111,8 @@ building_lib.register_building("spaceship_buildings:corridor_window", {
 })
 
 building_lib.register_building("spaceship_buildings:corridor_window_both", {
-	catalog = {
+    category = "spaceship_corridor",
+    catalog = {
         filename = MP .. "/schematics/corridor.zip",
         offset = { x=4, y=1, z=0 }
     },
@@ -117,7 +126,8 @@ building_lib.register_building("spaceship_buildings:corridor_window_both", {
 -- stairs
 
 building_lib.register_building("spaceship_buildings:corridor_stairs_bottom", {
-	catalog = {
+    category = "spaceship_corridor",
+    catalog = {
         filename = MP .. "/schematics/corridor.zip",
         offset = { x=4, y=0, z=1 }
     },
@@ -128,7 +138,8 @@ building_lib.register_building("spaceship_buildings:corridor_stairs_bottom", {
 })
 
 building_lib.register_building("spaceship_buildings:corridor_stairs_center", {
-	catalog = {
+    category = "spaceship_corridor",
+    catalog = {
         filename = MP .. "/schematics/corridor.zip",
         offset = { x=4, y=1, z=1 }
     },
@@ -136,7 +147,8 @@ building_lib.register_building("spaceship_buildings:corridor_stairs_center", {
 })
 
 building_lib.register_building("spaceship_buildings:corridor_stairs_top", {
-	catalog = {
+    category = "spaceship_corridor",
+    catalog = {
         filename = MP .. "/schematics/corridor.zip",
         offset = { x=4, y=2, z=1 }
     },

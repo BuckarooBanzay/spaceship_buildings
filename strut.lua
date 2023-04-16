@@ -1,7 +1,8 @@
 local MP = minetest.get_modpath("spaceship_buildings")
 
 building_lib.register_building("spaceship_buildings:strut_center", {
-	catalog = {
+    category = "spaceship_strut",
+    catalog = {
         filename = MP .. "/schematics/strut.zip",
         offset = { x=0, y=0, z=0 }
     },
@@ -9,7 +10,8 @@ building_lib.register_building("spaceship_buildings:strut_center", {
 })
 
 building_lib.register_building("spaceship_buildings:strut_horizontal_end", {
-	catalog = {
+    category = "spaceship_strut",
+    catalog = {
         filename = MP .. "/schematics/strut.zip",
         offset = { x=1, y=0, z=0 }
     },
@@ -20,7 +22,8 @@ building_lib.register_building("spaceship_buildings:strut_horizontal_end", {
 })
 
 building_lib.register_building("spaceship_buildings:strut_horizontal", {
-	catalog = {
+    category = "spaceship_strut",
+    catalog = {
         filename = MP .. "/schematics/strut.zip",
         offset = { x=2, y=0, z=0 }
     },
@@ -32,7 +35,8 @@ building_lib.register_building("spaceship_buildings:strut_horizontal", {
 })
 
 building_lib.register_building("spaceship_buildings:strut_diagonal_bottom", {
-	catalog = {
+    category = "spaceship_strut",
+    catalog = {
         filename = MP .. "/schematics/strut.zip",
         offset = { x=0, y=1, z=0 }
     },
@@ -40,7 +44,8 @@ building_lib.register_building("spaceship_buildings:strut_diagonal_bottom", {
 })
 
 building_lib.register_building("spaceship_buildings:strut_diagonal", {
-	catalog = {
+    category = "spaceship_strut",
+    catalog = {
         filename = MP .. "/schematics/strut.zip",
         offset = { x=0, y=2, z=0 }
     },
@@ -48,7 +53,8 @@ building_lib.register_building("spaceship_buildings:strut_diagonal", {
 })
 
 building_lib.register_building("spaceship_buildings:strut_diagonal_top", {
-	catalog = {
+    category = "spaceship_strut",
+    catalog = {
         filename = MP .. "/schematics/strut.zip",
         offset = { x=0, y=3, z=0 }
     },
